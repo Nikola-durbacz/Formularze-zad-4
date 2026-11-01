@@ -75,6 +75,14 @@
                 android:text="@string/female" />
 
         </RadioGroup>
+        <TextView
+            android:id="@+id/tvGenderError"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wybierz płeć"
+            android:textColor="#D32F2F"
+            android:textSize="12sp"
+            android:visibility="gone" />
 
         <Button
             android:id="@+id/btnCalculate"
